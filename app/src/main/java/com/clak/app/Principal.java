@@ -48,7 +48,8 @@ public class Principal extends AppCompatActivity {
         btnContinuar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Intent intent =  new Intent(context,Filtros.class);
+                startActivity(intent);
             }
         });
 
